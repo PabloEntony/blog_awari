@@ -1,3 +1,3 @@
 #Blog
 
-projeto desenvolvido pela equipe front end
+projeto desenvolvido pela equipe front-end da Awari!
