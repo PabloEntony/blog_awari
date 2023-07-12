@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Contato</title>
-    <script src="scripts.js"></script>
-</head>
-<body>
-    <nav>
-        <a href="/index.html">Voltar</a>
-    </nav>
-    <form id="contact-form">
-        <input name="nome"/>
-        <input name="email" />
-        <textarea name="mensagem"></textarea>
-        <button>Enviar</button>
-    </form>
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog - Contato</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <form id="contact-form">
+            <h2>Contato</h2>
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input name="nome" id="nome" type="text" placeholder="Nome Completo" required />
+            </div>
+            <div class="input-group">
+                <label for="email">E-mail:</label>
+                <input name="email" id="email" type="email" placeholder="contato@email.com" required />
+            </div>
+            <div class="input-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" type="text" required></textarea>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </body>
 </html>
